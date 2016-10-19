@@ -35,10 +35,11 @@ public class LeeFichero {
                     cadApe[i] = raf.readChar();
                 }
                 apellidos = new String(cadApe);
-                //apellidos=apellidos.trim() hace lo mismo que el if 
-                if (apellidos.indexOf('\u0000') != -1) {
+                apellidos=apellidos.trim();
+                
+                /*if (apellidos.indexOf('\u0000') != -1) {
                     apellidos = apellidos.substring(0, apellidos.indexOf('\u0000'));
-                }
+                }*/
 
                 //Lee deptNo
                 deptNo = raf.readByte();
