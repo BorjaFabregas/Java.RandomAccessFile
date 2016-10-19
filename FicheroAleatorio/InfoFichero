@@ -1,0 +1,9 @@
+numEmple    Short     9999
+apellidos   String    X(20)
+deptNo      Byte      99
+salario     Float     9999'99
+
+numEmple    -   apellidos   -   deptNo  -   salario
+2Bytes      -   40Bytes     -   1Byte   -   4Bytes
+
+Longitud de Registro = 47 Bytes
