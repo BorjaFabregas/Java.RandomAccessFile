@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Fabregas
+ * @author Borja Fabregas
  */
 public class ConsultasFichero {
 
