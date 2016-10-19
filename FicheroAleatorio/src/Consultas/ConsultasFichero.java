@@ -7,7 +7,7 @@ import java.io.RandomAccessFile;
 import java.util.Scanner;
 
 /**
- *hello
+ *
  * @author Borja Fabregas
  */
 public class ConsultasFichero {
