@@ -48,9 +48,8 @@ public class ConsultasFichero {
                     cadApe[i] = raf.readChar();
                 }
                 apellidos = new String(cadApe);
-                if (apellidos.indexOf('\u0000') != -1) {
-                    apellidos = apellidos.substring(0, apellidos.indexOf('\u0000'));
-                }
+                apellidos = apellidos.trim();
+                
                 //Lee deptNo
                 deptNo = raf.readByte();
                 //Lee Salario
